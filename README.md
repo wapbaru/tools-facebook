@@ -1,12 +1,4 @@
-# FBToolsBox
-Facebook Automation Tools  
-Author  : [**Dapunta Khurayra X**](https://www.facebook.com/Dapunta.Khurayra.X)  
-Library : [**FBToolsBox**](https://github.com/Dapunta/FBToolsBox)  
-Release : 01/01/2024  
-Version : 0.0.1  
-Python  : 3.10 - 3.12  
-<br>  
-<br>
+
 
 ## Installation
 ```python
@@ -76,8 +68,8 @@ gender : Gender You Want To Set (bool, default=0 -> female)
 #### Parameter
 ```python
 cookie   = 'datr=nxbaxnynx; sb=axn...' # Input Your Cookie Here
-email    = 'dapuntaxayonara@gmail.com' # Input Your Email Here
-phone    = '6282245780524'             # Input Your Phone Here
+email    = 'wwx@dr.com' # Input Your Email Here
+phone    = '6287775566544'             # Input Your Phone Here
 password = 'satusampaidelapan'         # Input Your Password Here
 ```
 
@@ -212,7 +204,7 @@ group   = '1824553201274304'                                 # Group ID (string,
 # You must post at least 1 text or 1 photo
 
 # Optional
-url     = ['https://e.top4top.io/p_2916o42201.jpg']          # Picture URL (list, default=None)
+url     = ['https://e.top4top.io/p_2916o4201.jpg']          # Picture URL (list, default=None)
 tag     = ['1827084332','100000415317575','100000200420913'] # Friend ID You Want To Tag (list, default=None)
 privacy = 1 # 1=Public, 2=Friends, 3=OnlyMe                  # Post Privacy (int, default=None)
 ```
@@ -252,12 +244,12 @@ Post = FB.PostToGroup(group=group, text=text, url=url, tag=tag, privacy=privacy)
 ```python
 # Must Be Included
 cookie = 'Input Your Cookie Here'                           # Cookie (string, default=None)
-post   = 'Facebook.com/6929777330379375'                    # ID/URL Post Target (string, default=None)
+post   = 'Facebook.com/69297770379375'                    # ID/URL Post Target (string, default=None)
 text   = 'Hello! Test Bot Comment'                          # Caption (string, default=None)
 # You must comment at least 1 text or 1 photo
 
 # Optional
-photo  = 'https://e.top4top.io/p_2916o42201.jpg'            # Picture URL (string, default=None)
+photo  = 'https://e.top4top.io/p_2916o4201.jpg'            # Picture URL (string, default=None)
 tag    = ['1827084332','100000415317575','100000200420913'] # Friend ID You Want To Tag (list, default=None)
 ```
 
@@ -286,7 +278,7 @@ Comment = FB.CommentToPost(post=post, text=text, photo=photo, tag=tag)
 ```python
 # Must Be Included
 cookie = 'Input Your Cookie Here'                                   # Cookie (string, default=None)
-post   = 'Facebook.com/6929777330379375'                            # ID/URL Post Target (string, default=None)
+post   = 'Facebook.com/6929777330375'                            # ID/URL Post Target (string, default=None)
 react  = 5 # 1=Like, 2=Love, 3=Haha, 4=Wow, 5=Care, 6=Sad, 7=Angry  # Reaction Type (int, default=2=Love)
 ```
 
@@ -314,13 +306,13 @@ Reaction = FB.ReactToPost(post=post, react=react)
 ```python
 # Must Be Included
 cookie  = 'Input Your Cookie Here'                           # Cookie (string, default=None)
-post    = 'Facebook.com/6929777330379375'                    # ID/URL Post You Want To Share (string, default=None)
+post    = 'Facebook.com/69297773379375'                    # ID/URL Post You Want To Share (string, default=None)
 group   = '1824553201274304'                                 # Group ID (string, default=None)
 # 'group' must include if share to group
 
 # Optional
 text    = 'Hello! Test Bot Share'                            # Caption (string, default=None)
-tag     = ['1827084332','100000415317575','100000200420913'] # Friend ID You Want To Tag (list, default=None)
+tag     = ['1827084332','10000041517575','100000200420913'] # Friend ID You Want To Tag (list, default=None)
 privacy = 1 # 1=Public, 2=Friends, 3=OnlyMe                  # Share Privacy (int, default=None)
 ```
 
